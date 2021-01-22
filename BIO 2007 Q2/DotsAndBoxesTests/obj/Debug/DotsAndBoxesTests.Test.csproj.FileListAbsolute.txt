@@ -1,0 +1,2 @@
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\DotsAndBoxesTests\obj\Debug\DotsAndBoxesTests.Test.csprojAssemblyReference.cache
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\DotsAndBoxesTests\obj\Debug\DotsAndBoxesTests.Test.csproj.CoreCompileInputs.cache
