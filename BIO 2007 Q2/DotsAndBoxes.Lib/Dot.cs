@@ -77,7 +77,7 @@ namespace DotsAndBoxes.Lib
             }
         }
 
-        public (int, int) RowAndColumn()
+        private (int, int) RowAndColumn()
         {
             return (_value / 6, _value % 6);
         }

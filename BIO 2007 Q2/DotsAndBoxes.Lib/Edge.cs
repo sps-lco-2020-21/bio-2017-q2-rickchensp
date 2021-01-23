@@ -41,13 +41,25 @@ namespace DotsAndBoxes.Lib
             set { _filled = value; }
         }
 
+        public Dot OtherDot(Dot dotIn)  //returns the other dot on the same edge
+        {
+            if (_dot1 == dotIn)
+                return _dot2;
+            return _dot1;
+        }
         public override string ToString()
         {
+            string filled;
             if(_dot1 == null || _dot2 == null)
             {
                 return null;
             }
-            return (_dot1.ToString() + " - " + _dot2.ToString());
+            if (_filled)
+                filled = "true";
+            else
+                filled = "false";
+            return (_dot1.ToString() + " - " + _dot2.ToString() + filled);
         }
+
     }
 }

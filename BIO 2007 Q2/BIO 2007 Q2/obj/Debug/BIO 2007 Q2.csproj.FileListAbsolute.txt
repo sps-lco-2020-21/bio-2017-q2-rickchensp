@@ -1,10 +1,10 @@
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\bin\Debug\BIO 2007 Q2.exe.config
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\bin\Debug\BIO 2007 Q2.exe
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\bin\Debug\BIO 2007 Q2.pdb
-C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.csprojAssemblyReference.cache
-C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.csproj.CoreCompileInputs.cache
-C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.exe
-C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.pdb
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\bin\Debug\DotsAndBoxes.Lib.dll
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\bin\Debug\DotsAndBoxes.Lib.pdb
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.csprojAssemblyReference.cache
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.csproj.CoreCompileInputs.cache
 C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.csproj.CopyComplete
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.exe
+C:\Users\Harry Chen\Documents\GitHub\bio-2017-q2-rickchensp\BIO 2007 Q2\BIO 2007 Q2\obj\Debug\BIO 2007 Q2.pdb

@@ -11,8 +11,9 @@ namespace BIO_2007_Q2
     {
         static void Main(string[] args)
         {
-            Grid grid1 = new Grid(4, 10, 14, 23, 47);
-            grid1.StartPlaying();
+            Grid grid1 = new Grid(4, 10, 14, 23);
+            grid1.Play(47);
+            Console.ReadKey();
         }
     }
 }
