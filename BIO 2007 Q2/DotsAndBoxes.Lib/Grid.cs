@@ -11,8 +11,8 @@ namespace DotsAndBoxes.Lib
         private Player _player;
         private int _playerId = 0;
         private List<Player> _players = new List<Player> { };
-        public static List<List<Dot>> _grid = new List<List<Dot>> { };
-        public static List<List<Square>> _squares = new List<List<Square>> { };
+        private List<List<Dot>> _grid = new List<List<Dot>> { };
+        private List<List<Square>> _squares = new List<List<Square>> { };
         public Grid(int p1Start, int p1Modifier, int p2Start, int p2Modifier)
         {
             Player player1 = new Player(1, p1Start, p1Modifier);
@@ -31,7 +31,7 @@ namespace DotsAndBoxes.Lib
                 List<Dot> row = new List<Dot> { };
                 for (int j = 0; j < 6; j++)
                 {
-                    row.Add(new Dot(i * 6 + j));
+                    row.Add(new Dot(i * 6 + j, _grid));
                 }
                 _grid.Add(row);
             }

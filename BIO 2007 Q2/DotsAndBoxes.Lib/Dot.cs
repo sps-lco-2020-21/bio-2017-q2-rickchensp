@@ -10,10 +10,12 @@ namespace DotsAndBoxes.Lib
     {
         private int _value;
         private List<Edge> _connections;
-        public Dot(int v)
+        private List<List<Dot>> _grid;
+        public Dot(int v, List<List<Dot>> grid)
         {
             _value = v;
             _connections = new List<Edge> { };
+            _grid = grid;
         }
 
         public int Value { get { return _value; } }
@@ -37,7 +39,7 @@ namespace DotsAndBoxes.Lib
                 (int row, int column) = RowAndColumn();
                 if (row > 0)
                 {
-                    return Grid._grid[row - 1][column];
+                    return _grid[row - 1][column];
                 }
                 else
                     return null;   //if the dot doesn't exist, return null
@@ -49,7 +51,7 @@ namespace DotsAndBoxes.Lib
             {
                 (int row, int column) = RowAndColumn();
                 if (row < 5)
-                    return Grid._grid[row + 1][column];
+                    return _grid[row + 1][column];
                 else
                     return null;
             }
@@ -60,7 +62,7 @@ namespace DotsAndBoxes.Lib
             {
                 (int row, int column) = RowAndColumn();
                 if (column > 0)
-                    return Grid._grid[row][column - 1];
+                    return _grid[row][column - 1];
                 else
                     return null;
             }
@@ -71,7 +73,7 @@ namespace DotsAndBoxes.Lib
             {
                 (int row, int column) = RowAndColumn();
                 if (column < 5)
-                    return Grid._grid[row][column + 1];
+                    return _grid[row][column + 1];
                 else
                     return null;
             }
